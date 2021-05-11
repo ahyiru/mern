@@ -1,4 +1,4 @@
-## mern栈项目开发
+## mern栈应用开发
 
 ![mern](./images/1.png)
 
