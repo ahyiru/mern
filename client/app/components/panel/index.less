@@ -1,0 +1,52 @@
+@import "~@common/styles/config.less";
+:local{
+  .panel{
+    position:relative;
+    background:@panelBgColor;
+    // color:#333;
+    border-radius:2px;
+    border:1px solid rgba(0,0,0,.02);
+    /*&:hover{
+      box-shadow:0px 2px 5px hsla(0,0%,80%,.7);
+    }*/
+    .panel-body{
+      overflow:hidden;
+      padding:10px 12px;
+      border-radius:2px;
+    }
+    .panel-header{
+      overflow:hidden;
+      padding:8px 12px;
+      background-color:rgba(0,0,0,.02);
+      border-top-left-radius:2px;
+      border-top-right-radius:2px;
+      display:flex;
+      align-items:center;
+      border-bottom:1px solid rgba(0,0,0,.03);
+      .panel-title{
+        margin:0;
+        max-width:30%;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+      }
+      .panel-plugins{
+        flex:1;
+        float:right;
+        a{
+          float:right;
+          font-size:1.8rem;
+          &:not(:first-of-type){
+            margin-right:10px;
+          }
+        }
+      }
+      &+.panel-body{
+        border-top-left-radius:0;
+        border-top-right-radius:0;
+      }
+    }
+  }
+}
+
+
