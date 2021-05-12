@@ -17,18 +17,3 @@ module.exports=connectDB;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
