@@ -75,7 +75,7 @@ const sendEmail=to=>{
 
 ### oauth登录
 
-已github登录为例。
+以github登录为例。
 
 ```javascript
 const GITHUBCFG={
